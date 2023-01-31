@@ -27,9 +27,10 @@ Instalar primeng:
 ```
 npm install primeng --save
 npm install primeicons --save
+npm install @angular/animations --save
 ```
 
-Agrege los estilos:
+Agrege los estilos en el archivo angular.json:
 
 ```
 ...
@@ -39,6 +40,18 @@ Agrege los estilos:
     "node_modules/primeng/resources/primeng.min.css",
     ...
 ]
+```
+
+Agrege los componentes que necesite en el archivo app.module.ts:
+
+```
+imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    ButtonModule,
+    PasswordModule
+  ]
 ```
 
 Corra la aplicacion:
