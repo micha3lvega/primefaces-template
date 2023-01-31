@@ -64,7 +64,8 @@ ng serve -o
 Ingrese a `http://localhost:4200/`
 
 # Nota
-Siéntase libre de enviar los cambios que desee
+Siéntase libre de enviar las actualizaciones que crea necesarios.
+
 ### Website
 
 Visite [PrimeNG Website](https://www.primefaces.org/primeng/) para mas documentación
