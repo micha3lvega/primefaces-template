@@ -6,9 +6,9 @@ Este proyecto fue generado con:
 [![Primeng](https://badgen.net/badge/primeng/15.2.0/red)](https://badge.fury.io/js/primeng)
 
 # Template para uso de primeng
-Este template fue creado para usar el framework de primeng con angular 15
+Este témplate fue creado para usar el framework de primeng con angular 15
 
-# Instalacion
+# Instalación
 
 Instalar Angular CLI globalmente:
 
@@ -30,7 +30,7 @@ npm install primeicons --save
 npm install @angular/animations --save
 ```
 
-Agrege los estilos en el archivo angular.json:
+Agregue los estilos en el archivo `angular.json`:
 
 ```
 ...
@@ -42,7 +42,7 @@ Agrege los estilos en el archivo angular.json:
 ]
 ```
 
-Agrege los componentes que necesite en el archivo app.module.ts:
+Agregue los componentes que necesite en el archivo `app.module.ts`:
 
 ```
 imports: [
@@ -54,16 +54,20 @@ imports: [
   ]
 ```
 
-Corra la aplicacion:
+Corra la aplicación:
 
 ```
 cd [PROJECT NAME]
 ng serve -o
 ```
 
+Ingrese a `http://localhost:4200/`
+
+# Nota
+Siéntase libre de enviar los cambios que desee
 ### Website
 
-Visite [PrimeNG Website](https://www.primefaces.org/primeng/) para mas documentacion
+Visite [PrimeNG Website](https://www.primefaces.org/primeng/) para mas documentación
 
 [![Love Angular badge](https://img.shields.io/badge/angular-love-blue?logo=angular&angular=love)](https://www.github.com/angular/angular)
 
